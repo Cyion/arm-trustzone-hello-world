@@ -47,3 +47,15 @@ Build app:
 ``` sh
 $ make hello_world
 ```
+
+I recommend installing OP-TEE 3.4.0 on the Raspberry Pi 3 (see https://optee.readthedocs.io/en/latest/building/devices/rpi3.html).
+
+##Useful links:
+
+https://github.com/sccommunity/rust-optee-trustzone-sdk
+
+https://www.op-tee.org/
+
+https://developer.arm.com/ip-products/security-ip/trustzone
+
+https://globalplatform.org/specs-library/?filter-committee=tee

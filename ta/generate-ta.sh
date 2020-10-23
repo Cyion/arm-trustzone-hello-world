@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-OPTEE_PATH=/home/cyion/optee3.4.0
+OPTEE_PATH=../rust-optee-trustzone-sdk/optee/
 TARGET=aarch64-unknown-linux-gnu
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
