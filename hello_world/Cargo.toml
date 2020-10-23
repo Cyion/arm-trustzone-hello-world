@@ -1,0 +1,16 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Pascal Reichert <pascal.reichert@tu-bs.de>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.48"
+proto = { path = "../proto" }
+optee-teec = { path = "../rust-optee-trustzone-sdk/optee-teec" }
+
+[build_dependencies]
+uuid = { version = "0.7", features = ["v4"] }
+
+[profile.release]
+lto = true

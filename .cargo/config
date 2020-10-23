@@ -1,0 +1,4 @@
+[target.aarch64-unknown-linux-gnu]
+linker = "/home/cyion/themis_trustzone/rust-optee-trustzone-sdk/optee/toolchains/aarch64/bin/aarch64-linux-gnu-gcc"
+ar = "/home/cyion/themis_trustzone/rust-optee-trustzone-sdk/optee/toolchains/aarch64/bin/aarch64-linux-gnu-ar"
+

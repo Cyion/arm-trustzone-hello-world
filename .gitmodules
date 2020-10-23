@@ -1,0 +1,3 @@
+[submodule "rust-optee-trustzone-sdk"]
+	path = rust-optee-trustzone-sdk
+	url = https://github.com/sccommunity/rust-optee-trustzone-sdk

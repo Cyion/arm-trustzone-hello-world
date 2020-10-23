@@ -1,0 +1,16 @@
+[package]
+name = "hello_world_ta"
+version = "0.1.0"
+authors = ["Pascal Reichert <pascal.reichert@tu-bs.de>"]
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.42.2"
+
+[lib]
+name = "ta"
+crate-type = ["staticlib"]
+
+[profile.release]
+panic = "abort"
