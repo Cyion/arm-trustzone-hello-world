@@ -61,4 +61,3 @@ https://developer.arm.com/ip-products/security-ip/trustzone
 
 https://globalplatform.org/specs-library/?filter-committee=tee
 
-Guten Morgen!
