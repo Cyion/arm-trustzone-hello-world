@@ -49,7 +49,7 @@ $ make hello_world
 ```
 
 I recommend installing OP-TEE 3.4.0 on the Raspberry Pi 3
-(see https://optee.readthedocs.io/en/latest/building/devices/rpi3.html).
+(see https://optee.readthedocs.io/en/latest/building/devices/rpi3.html). You need to set the value CFG_SCTLR_ALIGNMENT_CHECK?=n in /optee/optee_os/core/arch/arm/arm.mk. Otherwise you will get an alignment fault when executing the TA.
 
 ## Useful links:
 
